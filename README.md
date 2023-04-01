@@ -1,15 +1,22 @@
-# Getting Started with Create React App
+# IT School News
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my final project for the Front-end Web Development course I took @ITSchool
 
-## Available Scripts
+## Local usage
 
-In the project directory, you can run:
+After downloading/cloning the project, run the following commands:
 
-### `npm start`
+- `npm install`
+- `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Also, make sure you use your own API key from [The Guardian API](https://open-platform.theguardian.com/documentation/).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
+
+The project has the following features:
+
+- Display a category of news
+- Paginate news
+- Display individual news
+- Add/remove news to favorites
+- Persist favorite news through localStorage
